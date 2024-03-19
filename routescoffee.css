@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a {
+    text-decoration: none;
+}
 body {
     background-color: #ffffff;
 }
@@ -18,13 +21,28 @@ h1 {
 h2 {
     letter-spacing: 1px;
     font-weight: 100;
+    font-size: 30px;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 nav {
+    background-color: #ffffff;
     border-bottom: 1px solid #f2f3f4;
 }
 .nav a {
     color: #242630;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.nav a:hover {
+    color: darkgrey;
+    transition: 1s;
 }
 .nav {
     font-size: 15px;
@@ -34,7 +52,7 @@ nav {
     margin-right: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
-    
+    background-color: #ffffff;   
 }
 .logo-nav {
     margin-top: 20px;
@@ -53,12 +71,108 @@ nav {
 }
 .product-sect {
     margin-top: 95px;
-    background-color: lightgrey;
-    padding-top: 40px;
-
+    background-color: #f6f6f6;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
-hr {
-    width: 20px; 
-    color: green;
+.product-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.product-title {
+    font-size: 16px;
+    margin-top: 15px;
+    color: black;
+}
+.product-price {
+    font-size: 14px;
+    color: #aad2bc;
+}
+.hr {
+    width: 40px;
+    color: #aad2bc;
     margin-bottom: 20px;
+}
+.subscription-sect {
+    background-color: #1c1e28;
+    padding-top: 90px;
+}
+.subscription-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.coffeeimg {
+    height: 100%;
+    width: 80%;
+}
+.subscription-title {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 1px;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.subscription-p {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.find-out-more {
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid cyan;
+    border-radius: 0px;
+    margin-top: 70px;
+    color: white;
+}
+.find-out-more:hover {
+    border: 1px solid green;
+    color: white;
+}
+.events-sect {
+    background-color: #f2f3f4;
+}
+.events-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.events-title {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 1px;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.events-p {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.busimg2 {
+    height: 100%;
+    width: 80%;
+}
+.find-out-more-2 {
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid darkgreen;
+    border-radius: 0px;
+    margin-top: 70px;
+    color: black;
+}
+.find-out-more-2:hover {
+    border: 1px solid green;
+    color: black;
+}
+footer {
+    background-color: #1c1e28;
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
