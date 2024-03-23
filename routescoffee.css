@@ -11,6 +11,9 @@ a {
 body {
     background-color: #ffffff;
 }
+ul, li, ol  {
+    list-style-type: none;
+}
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
@@ -62,6 +65,7 @@ nav {
 .headerimg {
     height: 90px;
     margin-top: 30px;
+    margin-left: 12%;
 }
 .header-container {
     padding-top: 165px;
@@ -129,7 +133,7 @@ nav {
     color: white;
 }
 .find-out-more:hover {
-    border: 1px solid green;
+    border: 1px solid #539660;
     color: white;
 }
 .events-sect {
@@ -138,8 +142,8 @@ nav {
 .events-content {
     width: 80%;
     margin: 0 auto;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .events-title {
     color: black;
@@ -162,7 +166,7 @@ nav {
 .find-out-more-2 {
     font-size: 15px;
     padding: 20px;
-    border: 1px solid darkgreen;
+    border: 1px solid #539660;
     border-radius: 0px;
     margin-top: 70px;
     color: black;
@@ -175,4 +179,40 @@ footer {
     background-color: #1c1e28;
     padding-top: 90px;
     padding-bottom: 60px;
+}
+.media-icons i {
+    color: white;
+    font-size: 26px;
+}
+.media-icons i:hover {
+    color: #50a478;
+    transition: 0.6s;
+}
+.address {
+    color: white;
+    font-size: 15px;
+}
+.links {
+    color: white;
+    font-size: 15px;
+}
+.links a {
+    color: white;
+}
+.links a:hover {
+    color: #50a478;
+    transition: 0.6s;
+}
+.copyright {
+    color: grey;
+    font-size: 14px;
+}
+.credit {
+    color: grey;
+    font-size: 14px;
+}
+hr {
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 10em;
 }
