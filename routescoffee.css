@@ -225,6 +225,7 @@ hr {
 .account-sect {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 6em;
 }
 .account-sect h3 {
     margin-bottom: 2em;
@@ -263,4 +264,14 @@ a .lost {
     padding-bottom: 9px;
     margin-right: 1em;
     margin-bottom: 1em;
+}
+.form-control {
+    border-radius: 1px;
+    background-color: #eeeeee;
+    line-height: 3em;
+}
+.reg-email-desc {
+    font-size: 15px;
+    color: grey;
+    margin-top: 1em;
 }
