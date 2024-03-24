@@ -66,6 +66,7 @@ nav {
     height: 90px;
     margin-top: 30px;
     margin-left: 12%;
+    display: block;
 }
 .header-container {
     padding-top: 165px;
@@ -91,6 +92,10 @@ nav {
 .product-price {
     font-size: 14px;
     color: #aad2bc;
+}
+.product-img {
+    /* height: 300px; */
+    width: 300px;
 }
 .hr {
     width: 40px;
