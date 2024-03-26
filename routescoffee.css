@@ -347,3 +347,32 @@ h4 {
     width: auto;
     height: 420px;
 }
+/* GREENROUTE PAGE */
+.greenroute-header {
+    text-align: center;
+}
+.greenroute-title {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.greenroute-sect {
+    background-color: #f6f6f6;
+    padding-bottom: 9em;
+}
+.store-info {
+    padding-top: 8em;
+}
+.hr-greenroute {
+    padding-bottom: 4em;
+    height: 50px;
+}
+.flagship {
+    font-size: 36px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.store-details {
+    font-size: 16px;
+    color: slategrey;
+}
