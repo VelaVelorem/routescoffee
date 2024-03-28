@@ -376,3 +376,48 @@ h4 {
     font-size: 16px;
     color: slategrey;
 }
+/* SUBSCRIPTIONS PAGE SECT */
+.subscription-sect2 {
+    padding-top: 8em;
+    /* width: 90%;
+    margin: 0 auto; */
+}
+.subscription-headerimg {
+    height: 300px;
+}
+.justify-content-center {
+    gap: 2em;
+}
+.bold-p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+.subscription-textbox2 h2 {
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+.get-started {
+    background-color: #50a478;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 50%;
+    padding: 18px 26px;
+}
+.get-started:hover {
+    background-color: black;
+    color: white;
+}
+.manage-link {
+    color: #539660;
+    border-bottom: 1px solid #539660;
+}
+@media (max-width: 980px) {
+     .first-nav {
+        display: none;
+    }
+}
