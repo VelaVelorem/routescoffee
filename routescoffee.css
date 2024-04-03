@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+img {
+    max-width: 100%; 
+    display: block;
+}
 a {
     text-decoration: none;
 }
@@ -385,7 +389,7 @@ h4 {
 .subscription-headerimg {
     height: 300px;
 }
-.justify-content-center {
+.between-gap {
     gap: 2em;
 }
 .bold-p {
