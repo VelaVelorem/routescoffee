@@ -465,44 +465,22 @@ h4 {
     display: inline-block;
     padding-bottom: 3em;
 }
-.wholesale-name input[type=text] {
+.enquiry input[type=text] {
     border-radius: 3px;
     border: 1px solid black;
     background-color: white;
-    font-weight: 700;
+    font-weight: 600;
     padding-top: 15px;
     padding-bottom: 12px;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 2em;
 }
-.wholesale-bn input[type=text] {
+.enquiry textarea {
     border-radius: 3px;
     border: 1px solid black;
     background-color: white;
     font-weight: 700;
-    padding-top: 15px;
-    padding-bottom: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 2em;
-}
-.wholesale-email input[type=text] {
-    border-radius: 3px;
-    border: 1px solid black;
-    background-color: white;
-    font-weight: 700;
-    padding-top: 15px;
-    padding-bottom: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 2em;
-}
-.wholesale-tell input[type=text] {
-    border-radius: 3px;
-    border: 1px solid black;
-    background-color: white;
-    font-weight: 800;
     padding-top: 15px;
     padding-bottom: 12px;
     padding-left: 15px;
