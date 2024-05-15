@@ -508,4 +508,80 @@ h4 {
 /* coffeHire SECTION */
 .coffeeHire-sect {
     background-color: #f2f3f4;
+    padding-top: 7em;
+    padding-bottom: 5em;
+}
+.coffeeHire-p {
+    font-size: 16px;
+    color: grey;
+}
+.grey-bg p {
+    color: white;
+    font-size: 16px;
+    margin-top: 1.5em;
+}
+.grey-bg {
+    background-color: #1c1e28;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    margin-bottom: 4em;
+}
+.grey-bg h2 {
+    color: white;
+    margin-bottom: 1.5em;
+}
+input[type=checkbox] {
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+input[type=checkbox]:focus {
+    border-color: #50a478;
+    box-shadow: 0px 0px 5px #50a478;
+    background-color: white;
+}
+.enquiry2 {
+    background-color: white;
+}
+.enquireSubheader {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding-bottom: 3em;
+}
+.enquiry2 input[type=text] {
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 2em;
+}
+.enquiry2 textarea {
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 2em;
+}
+.enquiry2 .form-control:focus {
+    border-color: #50a478;
+    box-shadow: 0px 0px 10px #50a478;
+}
+.testimonial { 
+    background-color: #f8f6f7;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    margin-bottom: 4em;
+}
+.testimonial-content {
+    width: 80%;
+    margin: auto;
 }
