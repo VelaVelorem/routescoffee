@@ -585,3 +585,19 @@ input[type=checkbox]:focus {
     width: 80%;
     margin: auto;
 }
+.quotationImg {
+    width: 10.5em;
+}
+.reviewItem {
+    background-color: white;
+    border-radius: 1px;
+    width: 100%;
+    padding: 40px;
+}
+.review {
+    font-size: 16px;
+    color: slategrey;
+}
+.reviewUser {
+    color: #539660;
+}
